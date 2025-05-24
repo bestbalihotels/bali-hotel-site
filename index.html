@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Best Hotels in Bali</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Find the Best Hotels in Bali</h1>
+    <p>Explore top-rated stays in Bali for an unforgettable getaway.</p>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="E.g., Ubud" oninput="searchHotels()" />
+      <input type="date" />
+      <input type="date" />
+      <button onclick="searchHotels()">Search</button>
+    </div>
+  </header>
+
+  <section id="hotelList" class="grid-container"></section>
+
+  <footer>
+    <p>&copy; 2025 Bali Hotel Search</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
